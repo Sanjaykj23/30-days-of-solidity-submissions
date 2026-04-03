@@ -47,6 +47,6 @@ contract GasEfficientVoting{
                 isActive=true;
             }
             Proposals storage newProposal=proposalArray[PID];
-            return(newProposal.name,newProposal.startTime.newProposal.endTime,newProposal.voteCount,isActive);
+            return(newProposal.name,newProposal.startTime,newProposal.endTime,newProposal.isRegulated,newProposal.voteCount,isActive);
     }
 }
